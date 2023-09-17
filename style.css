@@ -1,0 +1,61 @@
+@font-face {
+    font-family: regular;
+    src: url(Sedu-Regular.otf);
+}
+@font-face {
+    font-family: bold;
+    src: url(Sedu-Bold.otf);
+}
+@font-face {
+    font-family: light;
+    src: url(Sedu-Light.otf)
+}
+
+h1 {
+    font-family: bold;
+    margin: 30px;
+}
+
+p {
+    font-family: regular;
+}
+
+.flex-box {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-box {
+    margin: auto;
+    width: 80%;
+}
+
+.link-box {
+    font-size: 12px;
+    margin: 30px;
+}
+
+.footer-box {
+    font-size: 10px;
+}
+
+a {
+    margin: 0 5px 0 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .inside-box {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+}
